@@ -22,6 +22,6 @@
 <!-- ELSE -->
 
 <!-- IF !privileges.topics:reply -->
-<a href="{config.relative_path}/login" class="btn btn-primary">[[topic:guest-login-reply]]</a>
+<a href="https://www.microduino.cc/user/synlogin?redirect=https%3A%2F%2Fforum.microduino.cc" class="btn btn-primary">[[topic:guest-login-reply]]</a>
 <!-- ENDIF !privileges.topics:reply -->
 <!-- ENDIF loggedIn -->

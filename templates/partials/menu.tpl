@@ -59,9 +59,10 @@
 								</a>
 							</li>
 							<li role="presentation" class="divider"></li>
-							<li component="user/logout">
-								<a href="#"><i class="fa fa-fw fa-sign-out"></i><span> [[global:logout]]</span></a>
-							</li>
+							<li>
+    <a href="https://www.microduino.cc/user/synlogout?redirect=https%3A%2F%2Fforum.microduino.cc"><i class="fa fa-fw fa-sign-out"></i><span> [[g
+lobal:logout]]</span></a>
+</li>
 						</ul>
 					</li>
 				</ul>
@@ -112,7 +113,7 @@
 					</li>
 					<!-- ENDIF allowRegistration -->
 					<li>
-						<a href="{relative_path}/login">
+						<a href="https://www.microduino.cc/user/synlogin?redirect=https%3A%2F%2Fforum.microduino.cc">
 							<i class="fa fa-sign-in visible-xs-inline"></i>
 							<span>[[global:login]]</span>
 						</a>
@@ -192,7 +193,7 @@
 				<!-- ELSE -->
 				<ul class="nav navbar-nav navbar-right">
 					<li>
-						<a href="{relative_path}/login">
+						<a href="https://www.microduino.cc/user/synlogin?redirect=https%3A%2F%2Fforum.microduino.cc">
 							<i class="fa fa-sign-in visible-xs-inline"></i>
 							<span>[[global:login]]</span>
 						</a>
